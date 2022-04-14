@@ -26,8 +26,7 @@ export const Modal = () => {
                         onClick={() => {
                             dispatch(closeModal());
                         }}
-                        >
-                            cancel
+                        >cancel
                     </button>
                 </div>
             </div>
