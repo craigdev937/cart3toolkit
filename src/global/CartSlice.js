@@ -12,7 +12,7 @@ createAsyncThunk("cart/getCartItems", async () => {
 
 const initialState = {
     cartItems: [],
-    amount: 4,
+    amount: 0,
     total: 0,
     isLoading: true
 };
@@ -49,8 +49,7 @@ const CartSlice = createSlice({
             state.amount = amount;
             state.total = total;
         },
-    },
-    
+    },    
     extraReducers: {
         [getCartItems.rejected]: (state, action) => {
             console.log(action),
