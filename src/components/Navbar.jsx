@@ -3,7 +3,7 @@ import { useSelector } from "react-redux";
 import { CartIcon } from "../misc/icons";
 
 export const Navbar = () => {
-    const { amount } = useSelector((store) => store.cart);
+    const { amount } = useSelector((state) => state.cart);
 
     return (
         <React.Fragment>

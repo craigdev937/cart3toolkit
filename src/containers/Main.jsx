@@ -7,8 +7,7 @@ import { CartContainer } from "../cart/CartContainer";
 
 export const Main = () => {
     const dispatch = useDispatch();
-    const { isLoading, cartItems } = 
-        useSelector((state) => state.cart);
+    const { isLoading, cartItems } = useSelector((state) => state.cart);
     const { isOpen } = useSelector((state) => state.modal);
 
     React.useEffect(() => {

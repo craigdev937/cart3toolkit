@@ -17,7 +17,7 @@ export const CartItem =
                 <button 
                     className="remove-btn"
                     onClick={() => {
-                        dispatch(remove(id));
+                        dispatch(removeItem(id));
                     }}
                     >remove
                 </button>
@@ -37,7 +37,7 @@ export const CartItem =
                             dispatch(removeItem(id));
                             return;
                         }
-                        dispatch(decrease({ id }));
+                        dispatch(decrease({id}));
                     }}
                     ><ChevronDown />
                     </button>
