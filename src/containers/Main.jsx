@@ -1,10 +1,12 @@
 import React from "react";
+import { Modal } from "../misc/Modal";
+import { Navbar } from "../components/Navbar";
 
 export const Main = () => {
     return (
         <React.Fragment>
-            <h1>Main</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat quod vero voluptate eveniet possimus? Atque cupiditate aut iure ipsa, dicta voluptates nobis odit exercitationem possimus, magni repellendus quas quisquam qui.</p>
+            <Modal />
+            <Navbar />
         </React.Fragment>
     );
 };
