@@ -179,7 +179,7 @@ nav svg {
 }
 
 .cart h2 {
-    text-transform: upp;
+    text-transform: uppercase;
     text-align: center;
     margin-bottom: 3rem;
 }
